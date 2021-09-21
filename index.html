@@ -27,15 +27,24 @@
         }
         .retterDiv {
             min-height: 200px;
-            width: 80%;
-            margin-left: auto;
-            display:flex;
+            max-width: 80%;
+            margin: auto;
+            align-items: center;
+            display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: center;
+
+            border-style: solid;
         }
         .rettDiv {
-            width:240px;
-            height:240px;
+            min-width: 225px;
+            min-height: 300px;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            
+            border-style: solid;
         }
         footer {
             width: 600px;
@@ -83,7 +92,7 @@
                         <em>Gluten, </em>
                     <br>
                     <img src="images/imgWok.jpg" alt="Wok meal"
-                        height="300px" width="300px">
+                        height="240px" width="240px">
                     <p>kylling, nudler, sjampinjong og grønnsaker.<p>
                 </div>
                 <div class="rettDiv">
@@ -92,7 +101,7 @@
                         <em>Gluten, </em>
                     <br>
                     <img src="images/imgNoodles.jpg" alt="noodles"
-                        height="200px" width="300px">
+                        height="240px" width="240px">
                     <p>Nudler med nudler</p>
                 </div>
                 <div class="rettDiv">
@@ -101,11 +110,6 @@
                         <em>Gluten, </em>
                     <br>
                     <p>Biff med bambusskudd og ris</p>
-                </div>
-                <div class="rettDiv">
-                <h3>Rett nr. 4</h3>
-                    <p><strong>Allergener: </strong>Gluten, </p>
-                    <p>Ingredienser: </p>
                 </div>
             </div>
             <h2>DESSERT</h2>
@@ -116,9 +120,7 @@
             </div>
             <div class="rettDiv">
                 <h3>Brownie</h3>
-            </div>
-            <div class="rettDiv">
-                <h3>Pannacotta</h3>
+                <p><strong>Allergener: </strong></p><span><em>Melk, peanøtter</em></span>
             </div>
         </div>
     </main>
