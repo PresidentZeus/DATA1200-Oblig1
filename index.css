@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    background-image: radial-gradient(#414551, #151419 85%);
+}
+header {
+    height: 120px;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(21,20,25,0), rgba(21,20,25,0.7), rgba(21,20,25)), url(images/Chopsticks.jpg);
+    /* legger en gradient over bildet for å blende sammen med bakgrunnsfarge til resten av nettsiden*/
+    background-color: #151419;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 45%;
+}
+#logo {
+    margin-top: -10px;
+    height: 100px;
+}
+#apningstider {
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.3em;
+    color: white;
+    text-shadow: -1px 1px 0 #000,  /*Lager en veldig liten skygge rundt texten for å øke lesbarhet med bakgrunnen*/
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+main h1,h2 {
+    text-align: center;
+    color: ghostwhite;
+}
+.retterDiv {
+    min-height: 200px;
+    max-width: 75%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.rettDiv {
+    width: 280px;
+    height: 420px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f0e8d0;
+    border-radius: 20px;
+}
+.rettDiv img {
+    border-radius: 15px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover; /* Stopper bildene fra å bli Strukket eller skvist sammen, bedre kvalitet */
+}
+footer {
+    width: 600px;
+    min-height: 60px;
+    margin: auto;
+}
+footer h1 {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
