@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    border-style: solid;
     background-image: radial-gradient(#414551, #151419 85%);
     color: white;
+    margin: 0;
 }
 header {
     height: 120px;
@@ -25,33 +25,37 @@ header {
 }
 #meny {
     margin-left: auto;
-    border-style: solid;
 }
-#meny ul {
+/*#meny ul {
     border: 1px solid green;
     margin-left: -35px;
-}
+}*/
 #meny a{
-    margin: auto;
-    list-style-type: none;
+    /*margin: auto;*/
     text-decoration: none;
-    display: inline-block;
+    color: white;
+    /*
     position: static;
-    border: 1px solid white;
-}
-#meny li{
-    width: 150px;
-    padding: 10px;
+    border: 1px solid white;*/
     border-radius: 30px;
     font-size: 18px;
     background-color: rgb(196, 0, 0);
     border-style: solid;
     border-color: rgb(87, 45, 45);
     border-width: 2px;
-    cursor: wait;
+    padding: 12px 0px;
 }
-#meny li:hover {
-    background-color: brown;
+#meny ul {
+    padding-left:0;
+}
+#meny li{
+    width: 100px;
+    list-style-type: none;
+    list-style:none;
+    display: inline-block;
+}
+#meny a:hover {
+    background-color: rgb(143, 34, 34);
 }
 #apningstider {
     width: 825px;
@@ -66,7 +70,7 @@ header {
         -1px -1px 0 #000;
 }
 main{
-    margin-top: 250px;
+    margin-top: 200px;
     min-width: 75%;
 }
 main h1,h2 {
@@ -74,6 +78,7 @@ main h1,h2 {
     color: ghostwhite;
 }
 .retterDiv {
+    color: black;
     min-height: 200px;
     margin: auto;
     align-items: center;
