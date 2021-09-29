@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-image: radial-gradient(#414551, #151419 85%);
     color: white;
     margin: 0;
@@ -14,7 +14,6 @@ header {
     background-repeat: no-repeat;
     background-position: 0% 45%;
     
-    width: 100%;
     font-size: 22px;
     text-align: center;
     line-height: 1.3em;
@@ -38,7 +37,7 @@ header {
     position: static;
     border: 1px solid white;*/
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 24px;
     background-color: rgb(196, 0, 0);
     border-style: solid;
     border-color: rgb(87, 45, 45);
@@ -70,7 +69,7 @@ header {
         -1px -1px 0 #000;
 }
 main{
-    margin-top: 200px;
+    margin-top: 180px;
     min-width: 75%;
 }
 main h1,h2 {
@@ -96,23 +95,58 @@ main h1,h2 {
     background-color: #f0e8d0;
     border-radius: 20px;
 }
+.rettDiv:hover {
+    background-color: rgba(240, 232, 208, 0.85);
+}
 .rettDiv img {
-    margin-top: 10px;
+    margin-top: -10px;
     border-radius: 15px;
     width: 240px;
     height: 240px;
     object-fit: cover; /* Stopper bildene fra å bli Strukket eller skvist sammen, bedre kvalitet */
+}
+.rettDiv h3 {
+    font-size: 25px;
 }
 footer {
     width: 70%;
     min-height: 60px;
     margin: auto;
 }
-footer h3 {
+#omOss {    
+    width: 75%;
+}
+#info h2 {
     text-align: left;
     font-size: 25px;
     color: whitesmoke;
-    border-style: solid;
-    min-width: 300px;
+}
+.infoer {
     display: inline-block;
+    vertical-align:top; 
+    width: 300px;
+    height: 270px;
+    margin-right: 150px;
+}
+.infoer ul{
+    list-style-type: none;
+    color: white;
+}
+.infoer a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 25px;
+}
+.infoer a:hover {
+    font-weight: bold;
+}
+#twt {
+    background-image: url("https://www.oslomet.no/bundles/oslomet/images/icon-twitter.svg");
+}
+
+
+.rapport p{
+    max-width: 75%;
+    padding: 10px;
+    margin: auto;
 }
