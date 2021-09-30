@@ -11,7 +11,7 @@ header {
     height: 150px;
     width:100%;
     background-image: linear-gradient(to bottom, rgba(21,20,25,0), rgba(21,20,25,0.7), rgba(21,20,25)), url(images/Chopsticks.jpg);
-    /* legger en gradient over bildet for å blende sammen med bakgrunnsfarge til resten av nettsiden*/
+    /* Legger en gradient over bildet for å blende sammen med bakgrunnsfarge til resten av nettsiden */
     background-color: #151419;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ main h1,h2 {
     border-radius: 15px;
     width: 240px;
     height: 240px;
-    object-fit: cover; /* Stopper bildene fra å bli Strukket eller skvist sammen, bedre kvalitet */
+    object-fit: cover; /* Stopper bildene fra å bli strukket eller skvist sammen, bedre kvalitet */
 }
 .rettDiv h3 {
     font-size: 25px;
