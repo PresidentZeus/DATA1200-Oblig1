@@ -50,7 +50,8 @@ header {
 }
 #meny a:focus {
     background-color: rgb(211, 48, 48);
-    padding: 22px;
+    padding: 24px;
+    margin: 5px 6px;
 }
 #meny li a:hover {
     background-color: rgb(211, 48, 48);
@@ -94,9 +95,6 @@ main h1,h2 {
     background-color: #f0e8d0;
     border-radius: 20px;
 }
-.rettDiv:hover {
-    background-color: rgba(240, 232, 208, 0.85);
-}
 .rettDiv img {
     margin-top: -10px;
     border-radius: 15px;
@@ -113,32 +111,34 @@ footer {
     margin: auto;
     align-content: center;
 }
-#info {
-    width: 100%;
+.info {
     display: flex;
     flex-direction: row;
 }
-#info h2 {
+.info h2 {
     text-align: left;
     font-size: 25px;
     color: whitesmoke;
 }
-.infoer {
+.infoChild {
     vertical-align:top; 
     width: 300px;
     height: 270px;
     margin-right: 15px;
 }
-.infoer ul{
+.infoChild2 {
+    width: 650px;
+}
+.infoChild ul{
     list-style-type: none;
     color: white;
 }
-.infoer a {
+.infoChild a {
     text-decoration: none;
     color: inherit;
     line-height: 25px;
 }
-.infoer a:hover, a:focus {
+.infoChild a:hover, a:focus {
     font-weight: bold;
 }
 .soMeLinks {
