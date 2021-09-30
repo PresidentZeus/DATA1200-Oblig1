@@ -108,20 +108,14 @@ footer {
     width: 50%;
     min-height: 60px;
     margin: auto;
-    border-style: solid;
     align-content: center;
-}
-#omOss {    
-    border-style: solid;
 }
 #info h2 {
     text-align: left;
     font-size: 25px;
     color: whitesmoke;
-    border-style: solid;
 }
 #info {
-    border-style: solid;
     width: 100%;
 }
 .infoer {
@@ -129,7 +123,6 @@ footer {
     vertical-align:top; 
     width: 300px;
     height: 270px;
-    border-style: solid;
 }
 .infoer ul{
     list-style-type: none;
@@ -143,9 +136,13 @@ footer {
 .infoer a:hover {
     font-weight: bold;
 }
-#twt {
-    background-image: url("https://www.oslomet.no/bundles/oslomet/images/icon-twitter.svg");
+.soMeLinks {
+    background-position: center;
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
 }
+
 .rapport p{
     max-width: 50%;
     padding: 10px;
