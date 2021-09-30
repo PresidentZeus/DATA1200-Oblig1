@@ -53,8 +53,13 @@ header {
     list-style:none;
     display: inline-block;
 }
-#meny a:hover {
+#meny a:focus {
     background-color: rgb(211, 48, 48);
+    padding: 22px;
+}
+#meny li a:hover {
+    background-color: rgb(211, 48, 48);
+    padding: 22px;
 }
 #apningstider {
     width: 825px;
@@ -133,7 +138,7 @@ footer {
     color: inherit;
     line-height: 25px;
 }
-.infoer a:hover {
+.infoer a:hover, a:focus {
     font-weight: bold;
 }
 .soMeLinks {
