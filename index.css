@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 header {
-    height: 120px;
+    height: 150px;
     width:100%;
     background-image: linear-gradient(to bottom, rgba(21,20,25,0), rgba(21,20,25,0.7), rgba(21,20,25)), url(images/Chopsticks.jpg);
     /* legger en gradient over bildet for å blende sammen med bakgrunnsfarge til resten av nettsiden*/
@@ -24,6 +24,7 @@ header {
 }
 #meny {
     margin-left: auto;
+    margin-top: -5px;
 }
 /*#meny ul {
     border: 1px solid green;
@@ -36,37 +37,32 @@ header {
     /*
     position: static;
     border: 1px solid white;*/
-    border-radius: 30px;
+    border-radius: 80% 40%;
     font-size: 24px;
     background-color: rgb(196, 0, 0);
-    border-style: solid;
-    border-color: rgb(87, 45, 45);
-    border-width: 2px;
-    padding: 12px 0px;
+    border: 2px solid brown;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.8);
+    padding: 20px;
 }
 #meny ul {
     padding-left:0;
 }
 #meny li{
-    padding: 25px;
+    padding: 5px 10px;
     list-style-type: none;
     list-style:none;
     display: inline-block;
 }
 #meny a:hover {
-    background-color: rgb(143, 34, 34);
+    background-color: rgb(211, 48, 48);
 }
 #apningstider {
     width: 825px;
     margin: auto;
+    margin-top: 35px;
     border-radius: 25px;
     padding: 20px;
     background-color: rgba(0,0,0, 0.5);
-    text-shadow: 
-        -1px 1px 0 #000,  /*Lager en veldig liten skygge rundt texten for å øke lesbarhet med bakgrunnen*/
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
 }
 main{
     margin-top: 180px;
