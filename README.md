@@ -9,5 +9,8 @@ Group name: DATA1200
 
 Group members:
 
-
-
+s364512 - David Knotten
+s364530 - Kevin Lewa Amundsen 
+s352110 - Alexander Kei San Natvig 
+s364574 - Ylli Gashi
+s364527 - Adrian Kongshaug
